@@ -3,69 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Virtual - Super Ofertas</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Loja Online - Minha Loja</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Super Ofertas</h1>
+        <h1>Minha Loja</h1>
+        <input type="text" id="searchBar" placeholder="Pesquise produtos..." onkeyup="filterProducts()">
     </header>
-
     <main>
-        <section class="produtos">
-            <div class="produto">
+        <div class="products">
+            <div class="product" data-name="Produto 1">
                 <img src="https://via.placeholder.com/150" alt="Produto 1">
                 <h2>Produto 1</h2>
-                <p>Descrição breve do produto 1.</p>
-                <span>R$ 50,00</span>
-            </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 2">
-                <h2>Produto 2</h2>
-                <p>Descrição breve do produto 2.</p>
-                <span>R$ 70,00</span>
-            </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 3">
-                <h2>Produto 3</h2>
-                <p>Descrição breve do produto 3.</p>
-                <span>R$ 80,00</span>
-            </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 4">
-                <h2>Produto 4</h2>
-                <p>Descrição breve do produto 4.</p>
-                <span>R$ 90,00</span>
-            </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 5">
-                <h2>Produto 5</h2>
-                <p>Descrição breve do produto 5.</p>
-                <span>R$ 60,00</span>
-            </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 6">
-                <h2>Produto 6</h2>
-                <p>Descrição breve do produto 6.</p>
-                <span>R$ 75,00</span>
-            </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 7">
-                <h2>Produto 7</h2>
-                <p>Descrição breve do produto 7.</p>
+                <p>Descrição do Produto 1</p>
                 <span>R$ 100,00</span>
             </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 8">
-                <h2>Produto 8</h2>
-                <p>Descrição breve do produto 8.</p>
-                <span>R$ 120,00</span>
+            <div class="product" data-name="Produto 2">
+                <img src="https://via.placeholder.com/150" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>Descrição do Produto 2</p>
+                <span>R$ 200,00</span>
             </div>
-        </section>
+            
+        </div>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Super Ofertas. Todos os direitos reservados.</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

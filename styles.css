@@ -1,19 +1,18 @@
-/* Estilos Globais */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1c1c1c; /* Fundo preto */
-    color: #f0f0f0;           /* Texto claro */
-}
+    background-color: #1c1c1c; 
+    color: #f0f0f0;           
 
-/* Cabeçalho */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333; /* Fundo cinza escuro */
+    background-color: #333; 
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -30,11 +29,11 @@ header input {
     width: 300px;
     border: 1px solid #555;
     border-radius: 5px;
-    background-color: #444; /* Fundo cinza médio */
+    background-color: #444;
     color: #f0f0f0;
 }
 
-/* Área de Produtos */
+
 .products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -45,7 +44,7 @@ header input {
 }
 
 .product {
-    background: #2c2c2c; /* Fundo cinza escuro */
+    background: #2c2c2c;
     border: 1px solid #444;
     border-radius: 5px;
     padding: 15px;
@@ -79,16 +78,16 @@ header input {
 
 .product p {
     font-size: 14px;
-    color: #bbb; /* Texto cinza claro */
+    color: #bbb; 
 }
 
 .product span {
     font-size: 16px;
     font-weight: bold;
-    color: #4caf50; /* Cor do preço em verde */
+    color: #4caf50; 
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .products {
         grid-template-columns: repeat(2, 1fr);
